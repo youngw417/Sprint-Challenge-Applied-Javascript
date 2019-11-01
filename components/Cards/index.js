@@ -32,6 +32,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
         })
     }
 })
+.catch(error => alert('the error was returned', error));
 
 
 function article(obj){
